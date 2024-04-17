@@ -8,6 +8,7 @@ public class PlanetsManagmentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PlanetsManagmentApplication.class, args);
+
 	}
 
 }
