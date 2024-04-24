@@ -17,5 +17,5 @@ public class SatelliteDto {
     private Long surfaceArea;
     private Long mass;
     private boolean naturalSatellite;
-    private Planet planet;
+    private Long planetId;
 }

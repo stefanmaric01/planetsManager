@@ -5,6 +5,7 @@ import lombok.Data;
 import planetsPackage.model.Satellite;
 
 import java.util.List;
+import java.util.Set;
 
 @Builder
 @Data
@@ -14,6 +15,7 @@ public class PlanetDto {
     private Long surfaceArea;
     private Long mass;
     private Long distanceFromSun;
-    private int averageSurfaceTemperature;
-    private List<Satellite> satellites;
+    private Long averageSurfaceTemperature;
+    private Set<Satellite> satellites;
+
 }

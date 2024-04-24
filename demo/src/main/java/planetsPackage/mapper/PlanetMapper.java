@@ -1,8 +1,9 @@
 package planetsPackage.mapper;
 
-import planetsPackage.dto.PlanetDto;
+import lombok.Builder;
 import planetsPackage.model.Planet;
-
+import planetsPackage.dto.PlanetDto;
+@Builder
 public class PlanetMapper {
 
     public static PlanetDto planetToPlanetDto(Planet planet) {
